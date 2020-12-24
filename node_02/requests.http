@@ -1,0 +1,15 @@
+GET http://localhost:3001
+
+###
+
+GET http://localhost:3001/1
+
+###
+
+POST http://localhost:3001 HTTP/1.1
+content-Type: application/json
+
+    {
+        "title": "nuevo título", 
+        "message": "con mensajito"
+    }
